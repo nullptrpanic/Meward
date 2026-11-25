@@ -1,12 +1,12 @@
 {
   "appInfo": {
-    "name": "Meward: Photo Watermark",
-    "subtitle": "Redact personal data offline",
+    "name": "Meward",
+    "subtitle": "Watermark photos & redact text",
     "privacyPolicyUrl": "https://nullptrpanic.github.io/Meward/privacy/?lang=en"
   },
   "version": {
     "description": "Before sending an ID photo, add who it is for and what it may be used for. With Meward you can put a watermark across the image and cover details the recipient does not need to see.\n\nChoose a photo or take one in the app. Type your own watermark and place it in the center, in a corner or in rows across the photo. Adjust the angle and opacity of a tiled watermark.\n\nFor screenshots and forms, Meward can suggest covers for Chinese names, mainland Chinese mobile numbers and resident ID numbers. Review each suggestion, move or remove a cover, or draw one yourself. A watermark appears above the covers. Preview the result and save a full-resolution PNG copy. Your original stays in place.\n\nPhoto editing and text recognition work entirely on your device, including offline with a locally stored photo. Meward reads only the photo you choose in the system picker and asks for camera access when you tap the camera. Saving a copy asks for permission to add it to Photos. You choose where a copy goes when you tap Share. No account, uploads, ads or tracking.",
-    "keywords": "privacy,editor,mask,ID card,screenshot,redaction,document,stamp,tile,text,OCR,identity,cover",
+    "keywords": "privacy,screenshot,editor,ID card,document,offline,OCR,mask,phone number,data protection,stamp,tile",
     "supportUrl": "https://nullptrpanic.github.io/Meward/?lang=en"
   }
 }

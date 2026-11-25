@@ -1,0 +1,42 @@
+ChinesePersonName is a Meward model trained with synthetic chats, instructions, forms, dictionary terms and annotated sentence contexts from the following sources.
+
+MultiCoNER v2
+Fetahu, Chen, Kar, Rokhlenko and Malmasi (2023). MultiCoNER v2: a Large Multilingual Dataset for Fine-grained and Noisy Named Entity Recognition.
+https://huggingface.co/datasets/MultiCoNER/multiconer_v2
+Licensed under Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+The Chinese training split was converted to simplified characters and its person subtypes were combined into a single name category.
+
+MASSIVE 1.1
+Copyright Amazon.com, Inc. or its affiliates. The data is licensed under Creative Commons Attribution 4.0 International.
+https://github.com/alexa/massive
+https://creativecommons.org/licenses/by/4.0/
+The Simplified Chinese training partition was adapted by substituting generated people into annotated person slots. MASSIVE localizes utterances from SLURP, also licensed under CC BY 4.0.
+https://github.com/pswietojanski/slurp
+FitzGerald et al., MASSIVE, https://arxiv.org/abs/2204.08582
+Bastianelli et al., SLURP, https://aclanthology.org/2020.emnlp-main.588/
+
+jieba dictionary (revision 67fa2e36e72f69d9134b8a1037b83fbb070b9775)
+https://github.com/fxsjy/jieba
+The training script sampled ordinary words, modifiers, place names and organisation names from the dictionary. Given-name fragments from other entries were recombined with surnames to generate examples. Annotated personal names and their sentence contexts came from MultiCoNER.
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Sun Junyi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
